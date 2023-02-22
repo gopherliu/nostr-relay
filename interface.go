@@ -8,6 +8,6 @@ import (
 
 type Relay interface {
 	AcceptEvent(*nostr.Event) bool
-
+	Name() string
 	Storage() storage.Storage
 }

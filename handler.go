@@ -1,0 +1,1 @@
+package nostr_relay
